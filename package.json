@@ -1,17 +1,15 @@
 {
-  "name": "discord-bot-completo",
-  "version": "1.0.0",
-  "description": "Bot Discord completo com tickets, loja e sistema de cargos",
+  "name": "discord-time-bot",
+  "version": "2.0.0",
+  "description": "Bot de gerenciamento de time para Discord",
   "main": "bot.js",
   "scripts": {
-    "start": "node bot.js",
-    "dev": "node --watch bot.js"
+    "start": "node bot.js"
   },
   "dependencies": {
-    "discord.js": "^14.15.3",
+    "discord.js": "^14.14.1",
+    "@discordjs/rest": "^2.2.0",
+    "discord-api-types": "^0.37.83",
     "dotenv": "^16.4.5"
-  },
-  "engines": {
-    "node": ">=18.0.0"
   }
 }
